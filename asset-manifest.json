@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/football-statistics/static/css/main.fb1d94d4.chunk.css",
-    "main.js": "/football-statistics/static/js/main.b0f5cbe9.chunk.js",
-    "main.js.map": "/football-statistics/static/js/main.b0f5cbe9.chunk.js.map",
+    "main.css": "/football-statistics/static/css/main.e0f65d1c.chunk.css",
+    "main.js": "/football-statistics/static/js/main.9733dad4.chunk.js",
+    "main.js.map": "/football-statistics/static/js/main.9733dad4.chunk.js.map",
     "runtime-main.js": "/football-statistics/static/js/runtime-main.2c71698a.js",
     "runtime-main.js.map": "/football-statistics/static/js/runtime-main.2c71698a.js.map",
     "static/js/2.9b3cdf45.chunk.js": "/football-statistics/static/js/2.9b3cdf45.chunk.js",
     "static/js/2.9b3cdf45.chunk.js.map": "/football-statistics/static/js/2.9b3cdf45.chunk.js.map",
     "index.html": "/football-statistics/index.html",
-    "static/css/main.fb1d94d4.chunk.css.map": "/football-statistics/static/css/main.fb1d94d4.chunk.css.map",
+    "static/css/main.e0f65d1c.chunk.css.map": "/football-statistics/static/css/main.e0f65d1c.chunk.css.map",
     "static/js/2.9b3cdf45.chunk.js.LICENSE.txt": "/football-statistics/static/js/2.9b3cdf45.chunk.js.LICENSE.txt",
     "static/media/argentina.svg": "/football-statistics/static/media/argentina.522fa6a7.svg",
     "static/media/australia.svg": "/football-statistics/static/media/australia.cca095af.svg",
@@ -70,7 +70,7 @@
   "entrypoints": [
     "static/js/runtime-main.2c71698a.js",
     "static/js/2.9b3cdf45.chunk.js",
-    "static/css/main.fb1d94d4.chunk.css",
-    "static/js/main.b0f5cbe9.chunk.js"
+    "static/css/main.e0f65d1c.chunk.css",
+    "static/js/main.9733dad4.chunk.js"
   ]
 }

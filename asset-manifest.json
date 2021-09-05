@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/football-statistics/static/css/main.f500272f.chunk.css",
-    "main.js": "/football-statistics/static/js/main.98ffa404.chunk.js",
-    "main.js.map": "/football-statistics/static/js/main.98ffa404.chunk.js.map",
+    "main.js": "/football-statistics/static/js/main.49053ec9.chunk.js",
+    "main.js.map": "/football-statistics/static/js/main.49053ec9.chunk.js.map",
     "runtime-main.js": "/football-statistics/static/js/runtime-main.2c71698a.js",
     "runtime-main.js.map": "/football-statistics/static/js/runtime-main.2c71698a.js.map",
     "static/js/2.9b3cdf45.chunk.js": "/football-statistics/static/js/2.9b3cdf45.chunk.js",
@@ -52,6 +52,7 @@
     "static/media/poland.svg": "/football-statistics/static/media/poland.75da69ba.svg",
     "static/media/portugal.svg": "/football-statistics/static/media/portugal.441ec0ce.svg",
     "static/media/republicOfIreland.svg": "/football-statistics/static/media/republicOfIreland.16f29ea3.svg",
+    "static/media/rightArrow.0d2d6f58.svg": "/football-statistics/static/media/rightArrow.0d2d6f58.svg",
     "static/media/romania.svg": "/football-statistics/static/media/romania.e4ec383a.svg",
     "static/media/russia.svg": "/football-statistics/static/media/russia.0dd3c108.svg",
     "static/media/scotland.svg": "/football-statistics/static/media/scotland.15c16af8.svg",
@@ -70,6 +71,6 @@
     "static/js/runtime-main.2c71698a.js",
     "static/js/2.9b3cdf45.chunk.js",
     "static/css/main.f500272f.chunk.css",
-    "static/js/main.98ffa404.chunk.js"
+    "static/js/main.49053ec9.chunk.js"
   ]
 }

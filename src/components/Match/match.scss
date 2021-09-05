@@ -1,0 +1,99 @@
+.match {
+  @include list-item;
+  justify-content: flex-start;
+  gap: 2%;
+}
+
+.match-status {
+  padding: 4px 8px;
+  border-radius: 6px;
+
+  &.scheduled,
+  &.postponed {
+    background-color: $yellow;
+  }
+  &.finished {
+    background-color: $light-blue;
+  }
+  &.canceled,
+  &.postponed,
+  &.suspended {
+    background-color: $red;
+  }
+  &.live,
+  &.paused {
+    background-color: $green;
+  }
+}
+
+.match-teams {
+  display: flex;
+  align-items: center;
+
+  & > *:nth-child(2) {
+    margin: 0 10px;
+
+    @media (max-width: $small) {
+      margin: 0 5px;
+    }
+  }
+
+  .home-team,
+  .away-team {
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+
+    &:hover {
+      color: darken($light-blue, 20%);
+    }
+  }
+
+  .long {
+    @media (max-width: $medium) {
+      display: none;
+    }
+  }
+
+  .short {
+    display: none;
+    @media (max-width: $medium) {
+      display: inline;
+    }
+  }
+
+  .long,
+  .short {
+    &.winner {
+      font-weight: bold;
+    }
+  }
+
+  .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 5px;
+
+    & > img {
+      width: 24px;
+      height: 24px;
+
+      @media (max-width: $small) {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+.match-score {
+  margin-right: 15px;
+  margin-left: auto;
+
+  @media (max-width: $small) {
+    margin-right: 5px;
+  }
+}

@@ -1,0 +1,23 @@
+.main {
+  padding-top: $header-height + 5px;
+  width: 100%;
+  height: 100%;
+
+  .container {
+    margin: 0 auto;
+    max-width: 55%;
+
+    @media (max-width: $extra-large) {
+      max-width: 70%;
+    }
+
+    @media (max-width: $large) {
+      max-width: 90%;
+    }
+
+    @media (max-width: $small) {
+      margin: 0 10px;
+      max-width: 100%;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $gray;
+
+  margin-top: 50px;
+
+  & > * {
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+    background-color: lighten($dark-blue, 10%);
+
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+
+    &:nth-child(1) {
+      animation: loader 3s ease-in-out infinite 0s;
+    }
+    &:nth-child(2) {
+      animation: loader 3s ease-in-out infinite 0.2s;
+    }
+    &:nth-child(3) {
+      animation: loader 3s ease-in-out infinite 0.4s;
+    }
+    &:nth-child(4) {
+      animation: loader 3s ease-in-out infinite 0.6s;
+    }
+  }
+}
+
+@keyframes loader {
+  0% {
+    opacity: 0;
+    transform: scale(0.4);
+    background: $dark-blue;
+  }
+  25% {
+    opacity: 1;
+    transform: scale(1.6);
+    background: lighten($dark-blue, 30%);
+  }
+  50% {
+    opacity: 0;
+    transform: scale(0.4);
+    background: darken($light-blue, 30%);
+  }
+  75% {
+    opacity: 1;
+    transform: scale(1.6);
+    background: $light-blue;
+  }
+  100% {
+    opacity: 0;
+  }
+}

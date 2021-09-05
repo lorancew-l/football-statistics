@@ -1,0 +1,48 @@
+.team {
+  @include list-item;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten($light-blue, 5%);
+  }
+}
+
+.team-info,
+.team-area {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 10px;
+
+    & > img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+.team-info {
+  .long {
+    @media (max-width: $medium) {
+      display: none;
+    }
+  }
+
+  .short {
+    display: none;
+    @media (max-width: $medium) {
+      display: inline;
+    }
+  }
+}
+
+.team-area {
+  margin-left: auto;
+}

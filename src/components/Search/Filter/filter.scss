@@ -1,0 +1,17 @@
+.filter-button {
+  background: transparent;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:focus {
+    outline: none;
+  }
+
+  img {
+    width: 18px;
+    height: 18px;
+  }
+}

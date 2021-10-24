@@ -8,6 +8,7 @@ import NoSearchResults from "../../Search/NoSearchResults/NoSearchResults";
 import { getPages } from "./prepareCompetitionsData";
 import Loader from "../../Loader/Loader";
 import ErrorSwitch from "../../Error/ErrorSwitch";
+import filterCompetitions from "./filterCompetitions";
 
 export default function Competitions() {
   const { search } = useLocation();
@@ -35,7 +36,7 @@ export default function Competitions() {
         throw new Error(response.status);
       })
       .then((response) => {
-        setCompetitionsList(response.competitions);
+        setCompetitionsList(filterCompetitions(response.competitions));
       })
       .catch((error) => setError(error));
   }, []);

@@ -1,5 +1,5 @@
 export const constants = {
-  baseUrl: "/football-statistics/",
+  baseUrl: "/",
   attribution: "Football data provided by the Football-Data.org API",
   searchPlaceHolderText: "Enter a search request",
   competitions: {

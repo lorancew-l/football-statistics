@@ -1,0 +1,11 @@
+node_modules
+
+gulpfile.js
+tasks
+
+.git
+
+build
+
+Dockerfile
+docker-compose.yml
